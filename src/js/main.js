@@ -42,7 +42,7 @@ var apod = {
     getRequest: function() {
         let _this = this;
         let date = this.randomDate(new Date(1995, 5, 16), new Date());
-        let url = "https://api.nasa.gov/planetary/apod?api_key=YOUR-DATA-DOT-GOV-API-KEY&date=" + date;
+        let url = "https://api.nasa.gov/planetary/apod?api_key=23sDEcylCGYXq6gZBEBnPxMgdY735ERpHMqXhpzi&date=" + date;
         $.ajax({
             url: url
         }).done(function(result){
